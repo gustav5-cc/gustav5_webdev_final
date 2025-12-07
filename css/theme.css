@@ -1,0 +1,26 @@
+:root {
+  --bisque: #ffe4c4;
+  --brown-0: #13070c;
+  --brown-1: #3f2a32;
+  --brown-2: #6b4d57;
+  --brown-3: #7a5c5f;
+  --brown-4: #896a67;
+  --brown-5: #b39996;
+  --brown-6: #ddc8c4;
+  --brown-7: #e6e1da;
+  --brown-8: #eff9f0;
+
+  --navbar-color: var(--brown-1);
+  --navbar-gradient1: var(--brown-0);
+  --navbar-gradient2: var(--brown-1);
+  --navbar-gradient3: var(--brown-2);
+  --navbar-text: var(--bisque);
+
+  --nav-gradient1: rgba(19, 7, 12, .5);
+  --nav-gradient2: rgba(63, 42, 50, .5);
+  --nav-gradient3: rgba(107, 77, 87, .5);
+
+  --background-color: var(--brown-0);
+
+  --gen-text: var(--bisque);
+}
