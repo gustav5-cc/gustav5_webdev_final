@@ -1,5 +1,4 @@
 /* Navbar CSS */
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -70,7 +69,6 @@ main {
 }
 
 /* Home Page CSS  */
-
 .center-text {
   margin: 1rem;
 }
@@ -87,8 +85,30 @@ img {
   padding-top: 1rem;
 }
 
-/*  Contact Page CSS  */
+#pictures img {
+  border-radius: 2rem;
+  border-color: var(--border-color);
 
+  object-fit: cover;
+  border: 3px solid transparent;
+  animation: light-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes light-glow {
+  0% {
+    border-color: rgba(249, 141, 116, 0.3);
+    box-shadow: 0 0 5px rgba(249, 141, 116, 0.2),
+      0 0 10px rgba(249, 141, 116, 0.2);
+  }
+
+  100% {
+    border-color: rgb(249, 141, 116);
+    box-shadow: 0 0 0.25rem rgba(249, 141, 116, 0.8),
+      0 0 0.3rem rgba(249, 141, 116, 0.4), 0 0 1rem rgba(249, 141, 116, 0.1);
+  }
+}
+
+/*  Contact Page CSS  */
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -129,6 +149,7 @@ img {
   width: 100%;
 }
 
+/* Very Small Devices */
 @media (min-width: 380px) {
   .nav-links a {
     font-size: 1rem;
@@ -139,6 +160,7 @@ img {
   }
 }
 
+/* Tablet Size+ */
 @media (min-width: 768px) {
   /* Navbar Media Query*/
   .nav-links a {
@@ -174,8 +196,13 @@ img {
   .contact-form {
     max-width: 70vw;
   }
+
+  .button-container button {
+    height: 1.5rem;
+  }
 }
 
+/* Laptop/Desktop Size Screens */
 @media (min-width: 1024px) {
   /* Contact Form Media Query */
   .contact-form {
@@ -184,5 +211,136 @@ img {
 
   .button-container button {
     height: 2rem;
+  }
+}
+
+/* Experience Page CSS */
+.resume-container {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.resume-header h1 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--alt-text);
+}
+
+.contact-info {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.contact-info a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  border: 2px solid var(--alt-text);
+  color: var(--gen-text);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: rgba(249, 141, 116, 0.2);
+  box-shadow: 0 0 10px rgba(249, 141, 116, 0.4);
+}
+
+.resume-section {
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+  border-bottom: 2px solid var(--border-color, #ccc);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.4rem;
+}
+
+.resume-item {
+  margin-bottom: 2rem;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.item-title {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--alt-text);
+}
+
+.item-date {
+  font-style: italic;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.item-sub {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.item-details {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
+
+.item-details li {
+  margin-bottom: 0.3rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.skill-category strong {
+  color: var(--alt-text);
+}
+
+@media (max-width: 600px) {
+  .item-header {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .contact-info span,
+  .contact-info a {
+    display: block;
   }
 }

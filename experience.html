@@ -4,15 +4,174 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gustavo C.C Portfolio Website</title>
-    <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <div id="nav-bar"></div>
 
     <main>
-      <h1>Some of my past experiences</h1>
-      <p>TCSS, CAT, TARGET</p>
+      <div class="resume-container">
+        <header class="resume-header">
+          <h1>Gustavo Carrillo Castro</h1>
+          <div class="contact-info">
+            <span>Portland, OR</span> | <span>+1971-386-9442</span> |
+            <a href="mailto:gustavocarrillo313@gmail.com"
+              >gustavocarrillo313@gmail.com</a
+            >
+          </div>
+          <a
+            href="assets/gcc_resume.pdf"
+            download="Gustavo_Carrillo_Resume.pdf"
+            class="download-btn"
+          >
+            Download Resume (PDF)
+          </a>
+        </header>
+
+        <section class="resume-section">
+          <h2 class="section-title">Education</h2>
+          <div class="resume-item">
+            <div class="item-header">
+              <h3 class="item-title">Portland State University</h3>
+              <span class="item-date">Graduating June 2026</span>
+            </div>
+            <div class="item-sub">Bachelor's in Computer Science</div>
+            <ul class="item-details">
+              <li><strong>GPA:</strong> 4.0, Presidents List</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="section-title">Work Experience</h2>
+
+          <div class="resume-item">
+            <div class="item-header">
+              <h3 class="item-title">Technical Course Support Specialist</h3>
+              <span class="item-date">Sep 2024 - Present</span>
+            </div>
+            <div class="item-sub">Portland State University | Portland, OR</div>
+            <ul class="item-details">
+              <li>
+                Assist undergraduate students taking C++ Introduction to
+                Programming, Data Structures, and Programming Methodologies with
+                assignments and object-oriented design principles.
+              </li>
+              <li>
+                Lead student C++ and Python learning labs (80+ students/term),
+                aiding with environment setup, debugging, and core concepts.
+              </li>
+              <li>
+                Hold drop-in hours for debugging assignments (GDB, Valgrind),
+                explaining compiler errors, and visualizing data structure
+                algorithms.
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="item-header">
+              <h3 class="item-title">Technical Support Services (CAT)</h3>
+              <span class="item-date">Oct 2023 - June 2024</span>
+            </div>
+            <div class="item-sub">Computer Action Team | Portland, OR</div>
+            <ul class="item-details">
+              <li>
+                Served as Help Desk support for MCECS engineering students in
+                Linux, Windows, and Mac environments.
+              </li>
+              <li>
+                Troubleshot web printing, remote desktop protocols, SSH, VPN
+                networking, and web application access.
+              </li>
+              <li>
+                Documented and escalated user issues via ticketing systems while
+                managing the front desk.
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="item-header">
+              <h3 class="item-title">Electronics Expert & Cashier</h3>
+              <span class="item-date">Oct 2021 - Mar 2023</span>
+            </div>
+            <div class="item-sub">Target | Portland, OR</div>
+            <ul class="item-details">
+              <li>
+                Managed media and electronics inventory, maintaining a visually
+                appealing environment during high-volume hours.
+              </li>
+              <li>
+                Assisted customers with device specifications, phone
+                activations, and troubleshooting.
+              </li>
+              <li>
+                De-escalated customer service scenarios while maintaining high
+                engagement at the register.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="section-title">Projects</h2>
+
+          <div class="resume-item">
+            <div class="item-header">
+              <h3 class="item-title">Airline Android App</h3>
+            </div>
+            <ul class="item-details">
+              <li>
+                Developed an Android app using Android Studio featuring internal
+                storage support and XML data formatting.
+              </li>
+              <li>
+                Implemented robust exception handling and processed user input
+                via custom widgets.
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="item-header">
+              <h3 class="item-title">MCP Server</h3>
+            </div>
+            <ul class="item-details">
+              <li>
+                Developed an MCP server hosted on Google Cloud Run to query an
+                API for internships using natural language.
+              </li>
+              <li>
+                Included support for location, wage, and major fields in
+                queries.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="section-title">Experience & Coursework</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <strong>Languages:</strong> Python, C++, C, HTML, CSS, JS, Java,
+              PostgreSQL
+            </div>
+            <div class="skill-category">
+              <strong>Tools:</strong> Visual Studio, IntelliJ Idea, PyTest,
+              JUnit, GDB, Valgrind, Android Studio, Makefile
+            </div>
+            <div class="skill-category">
+              <strong>Classes:</strong> Android & Java, Data w/ Python, Web &
+              Cloud Systems
+            </div>
+            <div class="skill-category">
+              <strong>Fluent In:</strong> English, Spanish
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
     <script src="js/nav.js"></script>
