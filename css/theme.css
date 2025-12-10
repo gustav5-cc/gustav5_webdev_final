@@ -14,9 +14,9 @@
   --navbar-color: var(--brown-1);
   --navbar-text: var(--bisque);
 
-  --nav-gradient1: rgba(19, 7, 12, .5);
-  --nav-gradient2: rgba(63, 42, 50, .5);
-  --nav-gradient3: rgba(107, 77, 87, .5);
+  --nav-gradient1: rgba(19, 7, 12, 0.5);
+  --nav-gradient2: rgba(63, 42, 50, 0.5);
+  --nav-gradient3: rgba(107, 77, 87, 0.5);
 
   --background-color: var(--brown-0);
   --border-color: var(white);

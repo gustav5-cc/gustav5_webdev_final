@@ -1,4 +1,5 @@
 # Gustavo Carrillo Castro
+
 ## CS 463 Final Project - Portfolio Website
 
 This is a vanilla stack (HTML, CSS, and JS) website that i meant to show off 
@@ -12,6 +13,8 @@ glowing effect on images, as well as border highlighting and lifting of cards
 on hover. Alongside all the regular theme, layouts, flex, and media query
 effects CSS can handle.
 
+### Deployment/Hosting Yourself
+
 You can find the site deployed here [View Site](https://gustav5-cc.github.io/gustav5_webdev_final/)
 Or on the right side of this github page under deployments.
 
@@ -20,5 +23,19 @@ onto your machine and use Liveserver, or some other local server host to
 ensure that calls to fetch() load correctly without being stopped by the 
 machines file system protections.
 
-Resources Used During the Development Include:
+### Resources Used During the Development Include:
 
+- Mozilla File Structure Blog:
+    - https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files 
+
+- Breakpoints for Responsive Web Design in 2025:
+    - https://www.browserstack.com/guide/responsive-design-breakpoints 
+
+- Mozilla Docs: backdrop-filter:
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter 
+
+- CSS Crash Course for Absolute Beginners:
+    - https://youtu.be/yfoY53QXEnI?si=AWQ51IsC30V0Juby 
+
+- W3 Schools CSS Animations:
+    - https://www.w3schools.com/css/css3_animations.asp 

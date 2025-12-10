@@ -4,8 +4,8 @@ const projects = [
   {
     title: "San Francisco Police Data Analysis Notebook",
     description:
-      "Analyzed traffic stop data to visualize patterns using Python and Pandas. Created heatmaps and scatter plots to identify trends in stop reasons.",
-    link: "https://github.com/yourusername/project-repo",
+      "Analyzed traffic stop data to visualize patterns using Python and Pandas. Created heatmaps and scatter plots to identify trends and any bias that one might observe between different demographics.",
+    link: "https://github.com/gustav5-cc/Colab-Notebook-Driving-Information",
     linkText: "View Source",
     image: "",
   },
@@ -13,9 +13,9 @@ const projects = [
     title: "2d Sprite Normal Mapper",
     description:
       "Lightweight static site to turn 2d sprites into a normal map for enhanced lighting. Has options to invert colors as needed for your game dev environment",
-    link: "https://your-deployment-link.com",
+    link: "https://github.com/gustav5-cc/Sprilite",
     linkText: "View Source",
-    image: "",
+    image: "assets/sprilite.png",
   },
   {
     title: "Custom Language Interpreter",
