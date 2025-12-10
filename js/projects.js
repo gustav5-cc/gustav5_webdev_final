@@ -18,12 +18,12 @@ const projects = [
     image: "assets/sprilite.png",
   },
   {
-    title: "Custom Language Interpreter",
+    title: "Airline Android App",
     description:
-      "Built a parser and interpreter for a custom programming language using Python and the Lark library.",
+      "Android app built using android studio and maven for build automation. Allows user to add and track flight routes and supports persistent memory using android internal storage.",
     link: "google.com",
     linkText: "View Source",
-    image: "assets/snowpic.jpg",
+    image: "assets/rename.png",
   },
 ];
 
